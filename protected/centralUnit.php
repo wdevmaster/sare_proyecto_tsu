@@ -309,21 +309,6 @@
 		}
 		
 	}
-	/*
-	function regTbNotaRep($idAe,$ciEst,$idGrad,$idAsign,$AsignNam){
-		$sql="INSERT INTO notaestudiantes (idAnoEscolar, ciEstudiante, idGrdAsig, idAsigGrd, nombAsign)
-				VALUES ('".$idAe."',
-						'".$ciEst."',
-						'".$idGrad."',
-						'".$idAsign."',
-						'".$AsignNam."')";
-						
-		echo $sql.'<br>';				
-		$con = dbCon();
-		Query($con,$sql);
-		affected($con);
-		?><script>//window.location="S2OP1.php";</script><?php
-	}*/
 
 	function modfDtPlantel($dat){
 		$sql="UPDATE datosplantel SET 	codigoDEA				= '".$dat['codigoDEA']."', 
