@@ -1,7 +1,5 @@
 <?php 
 	
-	function namePages(){ return substr($_SERVER['SCRIPT_FILENAME'],25,-4);	}
-	
 	function arrayPost(){ $dtFrom = array(); foreach($_POST as $nc => $value){ $dtFrom[$nc] = $value;}
 	return $dtFrom;}
 
